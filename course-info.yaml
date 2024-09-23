@@ -1,0 +1,10 @@
+type: marketplace
+title: Game Chart Creation
+language: English
+summary: Create a bar chart for game info with me !
+programming_language: Python
+environment: unittest
+content:
+  - Setup
+  - Plotting
+  - Conclusion
