@@ -5,3 +5,5 @@ files:
   - name: __init__.py
     visible: false
     propagatable: false
+  - name: dataset.csv
+    visible: true

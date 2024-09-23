@@ -4,15 +4,26 @@ Here's an example from their website:
 
 ![count plot](../../../common/resources/images/count.png)
 
-using the method you only need a few more parameters to get a full
+using the method you only need a few more parameters to get a full chart.
 
+x = the category of the x axis in our case the platforms.  
+hue = the different categories inside a category from x in our case the gere.  
+data = our dataframe
 
+try to display the graph with following line 
+```python
+ 
+plt.show()
+  
+```
 
 <div class="hint">
 
 ```python
-   
 sns.countplot(x='platform', hue='genre', data=df)
 plt.show()
 ```
 </div>
+
+If it looks anything like the following you've got it right!
+![unfinished](../../../common/resources/images/unfinished.png)
