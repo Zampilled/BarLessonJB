@@ -1,4 +1,10 @@
-type: theory
+type: choice
+is_multiple_choice: false
+options:
+  - text: Correct
+    is_correct: false
+  - text: Incorrect
+    is_correct: true
 files:
   - name: main.py
     visible: true
@@ -7,3 +13,4 @@ files:
     propagatable: false
   - name: dataset.csv
     visible: true
+local_check: true
